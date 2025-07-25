@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F9F7F7;
+}
+
+.back {
+    background-color: #112D4E;
+}
+
+
+.head {
+    height: 700px;
+    color: #F4EEFF;
+}
+
+.boy {
+    position: relative;
+    top: 1vh;
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+
+.says {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    max-width: 100%;
+}
+
+.says2 {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.dino {
+    bottom: 45vh;
+    margin-left: 4vh;
+    position: absolute;
+}
+
+.pfp {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+.pfp img {
+    border-radius: 50%;
+}
+
+.summary {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.sumtex {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+
+.dev,
+.game {
+    height: 30vh;
+    margin-left: 5vh;
+}
+
+.vid1 {
+    float: left;
+    padding: 3vh;
+}
+
+.vid2 {
+    float: left;
+    padding: 3vh;
+    padding-left: 7vh;
+    padding-right: 5vh;
+}
+
+.space {
+    padding-top: 3vh;
+    max-width: 80%;
+}
+
+.get {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align:center; */
+}
+
+.last {
+    padding-top: 3vh;
+    max-width: 80vh;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.but {
+    text-align: center;
+    margin: 2vh;
+    height: 3vh;
+    max-width: 20vh;
+    border-radius: 5px;
+    background-color: #112D4E;
+    color: #F4EEFF;
+}
+
+.but a {
+    color: #F4EEFF;
+    text-decoration: none;
+}
+
+.textcolor {
+    color: #112D4E;
+}
+
+.foot {
+    height: 200px;
+}
+
+.link {
+    display: inline;
+    margin-right: 5vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    color: #F4EEFF;
+    text-decoration: none;
+}
+
+.fot {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    padding: 3vh;
+    color: #F4EEFF;
+    text-align: center;
+}
+
+@media (max-width: 660px) {
+    .space {
+        padding: 1vh;
+        font-size: 1rem;
+        clear: left;
+    }
+}
