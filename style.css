@@ -200,5 +200,6 @@ body {
     .game {
         height: 50vh;
         display: block;
+        margin-bottom: 1%;
     }
 }
